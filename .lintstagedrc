@@ -1,0 +1,10 @@
+{
+  "*.ts": [
+    "yarn lint -- ",
+    "yarn format -- ",
+    "yarn jest --findRelatedTests"
+  ],
+  "*.json": [
+    "yarn format -- "
+  ]
+}
