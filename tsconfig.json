@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
+    "outDir": "./dist",
     "target": "ES2021",
     "lib": ["ES2021", "DOM"],
     "module": "CommonJS",
