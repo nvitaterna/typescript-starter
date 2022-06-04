@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "tsBuildInfoFile": ".tsbuildinfo",
     "incremental": true,
     "rootDir": "./src"
   },
