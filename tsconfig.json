@@ -4,6 +4,7 @@
     "target": "ES2021",
     "lib": ["ES2021", "DOM"],
     "module": "CommonJS",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
