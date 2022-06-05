@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":rebaseStalePrs"],
+  "extends": ["config:base", ":rebaseStalePrs", ":semanticCommits"],
   "packageRules": [
     {
       "description": "Automatically merge minor and patch-level updates",
