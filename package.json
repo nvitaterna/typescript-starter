@@ -13,6 +13,9 @@
     "test": "yarn jest src",
     "prepare": "husky install"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "devDependencies": {
     "@commitlint/cli": "17.0.2",
     "@commitlint/config-conventional": "17.0.2",
