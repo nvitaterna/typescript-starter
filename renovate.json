@@ -8,5 +8,6 @@
       "automergeType": "branch",
       "ignoreTests": true
     }
-  ]
+  ],
+  "automergeSchedule": "after 9pm on sunday"
 }
