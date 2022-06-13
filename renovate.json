@@ -9,5 +9,5 @@
       "ignoreTests": true
     }
   ],
-  "automergeSchedule": "after 9pm on sunday"
+  "automergeSchedule": "on sunday"
 }
