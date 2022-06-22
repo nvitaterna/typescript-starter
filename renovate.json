@@ -9,5 +9,6 @@
       "ignoreTests": true
     }
   ],
-  "automergeSchedule": ["before 5:00am"]
+  "automergeSchedule": ["before 5:00am"],
+  "timezone": "America/Toronto"
 }
