@@ -1,10 +1,10 @@
 {
   "*.ts": [
-    "yarn lint -- ",
-    "yarn format -- ",
-    "yarn jest --findRelatedTests"
+    "yarn eslint --fix",
+    "yarn prettier --write",
+    "yarn jest --collectCoverageFrom $MODIFIED_FILES --findRelatedTests"
   ],
   "*.json": [
-    "yarn format -- "
+    "yarn prettier --write"
   ]
 }
